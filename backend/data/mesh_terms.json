@@ -1,0 +1,99 @@
+{
+  "acronyms": {
+    "pd": "Parkinson's disease",
+    "dbs": "Deep Brain Stimulation",
+    "stn-dbs": "Subthalamic Nucleus Deep Brain Stimulation",
+    "ad": "Alzheimer's disease",
+    "nsclc": "Non-Small Cell Lung Cancer",
+    "sclc": "Small Cell Lung Cancer",
+    "t2dm": "Type 2 Diabetes Mellitus",
+    "htn": "Hypertension",
+    "copd": "Chronic Obstructive Pulmonary Disease",
+    "mi": "Myocardial Infarction",
+    "chf": "Congestive Heart Failure",
+    "ckd": "Chronic Kidney Disease",
+    "ms": "Multiple Sclerosis",
+    "ra": "Rheumatoid Arthritis",
+    "ibd": "Inflammatory Bowel Disease",
+    "uc": "Ulcerative Colitis",
+    "cvd": "Cardiovascular Disease",
+    "tbi": "Traumatic Brain Injury",
+    "ssri": "Selective Serotonin Reuptake Inhibitor",
+    "glp-1": "Glucagon-Like Peptide-1 Receptor Agonist",
+    "car-t": "Chimeric Antigen Receptor T-Cell Therapy",
+    "covid": "COVID-19",
+    "sars-cov-2": "SARS-CoV-2"
+  },
+  "preferred": {
+    "parkinson disease": "Parkinson's disease",
+    "parkinsons disease": "Parkinson's disease",
+    "alzheimer disease": "Alzheimer's disease",
+    "alzheimers disease": "Alzheimer's disease",
+    "lung cancer": "Lung Neoplasms",
+    "breast cancer": "Breast Neoplasms",
+    "colon cancer": "Colorectal Neoplasms",
+    "diabetes type 2": "Type 2 Diabetes Mellitus",
+    "type 2 diabetes": "Type 2 Diabetes Mellitus",
+    "high blood pressure": "Hypertension",
+    "heart attack": "Myocardial Infarction",
+    "stroke": "Cerebrovascular Accident",
+    "asthma": "Asthma",
+    "migraine": "Migraine Disorders",
+    "depression": "Depressive Disorder, Major"
+  },
+  "entryTerms": {
+    "Parkinson's disease": [
+      "Parkinson disease",
+      "paralysis agitans",
+      "idiopathic Parkinsonism",
+      "Lewy body Parkinsonism"
+    ],
+    "Alzheimer's disease": [
+      "senile dementia",
+      "Alzheimer dementia",
+      "presenile dementia"
+    ],
+    "Lung Neoplasms": [
+      "lung cancer",
+      "pulmonary carcinoma",
+      "bronchogenic carcinoma",
+      "NSCLC",
+      "SCLC"
+    ],
+    "Breast Neoplasms": [
+      "breast cancer",
+      "mammary carcinoma",
+      "ductal carcinoma",
+      "lobular carcinoma"
+    ],
+    "Type 2 Diabetes Mellitus": [
+      "T2DM",
+      "non-insulin-dependent diabetes",
+      "adult-onset diabetes"
+    ],
+    "Hypertension": [
+      "high blood pressure",
+      "arterial hypertension",
+      "essential hypertension"
+    ],
+    "Asthma": [
+      "bronchial asthma",
+      "reactive airway disease"
+    ],
+    "Migraine Disorders": [
+      "migraine",
+      "migraine headache",
+      "hemicrania"
+    ],
+    "Depressive Disorder, Major": [
+      "major depression",
+      "MDD",
+      "clinical depression"
+    ],
+    "COVID-19": [
+      "SARS-CoV-2 infection",
+      "coronavirus disease 2019",
+      "novel coronavirus pneumonia"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "Parkinson's disease": [
+    "Parkinson disease",
+    "PD",
+    "paralysis agitans",
+    "idiopathic Parkinsonism",
+    "Lewy body Parkinsonism"
+  ],
+  "Alzheimer's disease": [
+    "AD",
+    "Alzheimer dementia",
+    "senile dementia of Alzheimer type"
+  ],
+  "Lung Neoplasms": [
+    "lung cancer",
+    "pulmonary carcinoma",
+    "bronchogenic carcinoma",
+    "NSCLC",
+    "SCLC"
+  ],
+  "Breast Neoplasms": [
+    "breast cancer",
+    "mammary carcinoma",
+    "ductal carcinoma",
+    "lobular carcinoma"
+  ],
+  "Type 2 Diabetes Mellitus": [
+    "T2DM",
+    "type 2 diabetes",
+    "non-insulin-dependent diabetes mellitus"
+  ],
+  "Hypertension": [
+    "high blood pressure",
+    "HTN",
+    "arterial hypertension"
+  ],
+  "Asthma": [
+    "bronchial asthma",
+    "reactive airway disease"
+  ],
+  "Migraine Disorders": [
+    "migraine",
+    "migraine headache"
+  ],
+  "Depressive Disorder, Major": [
+    "major depressive disorder",
+    "MDD",
+    "clinical depression"
+  ],
+  "COVID-19": [
+    "SARS-CoV-2 infection",
+    "coronavirus disease 2019",
+    "novel coronavirus"
+  ],
+  "Deep Brain Stimulation": [
+    "DBS",
+    "subthalamic nucleus stimulation",
+    "pallidal stimulation",
+    "neuromodulation therapy",
+    "STN-DBS"
+  ],
+  "Chemotherapy": [
+    "chemo",
+    "cytotoxic therapy",
+    "antineoplastic therapy"
+  ],
+  "Immunotherapy": [
+    "immune checkpoint inhibitor",
+    "checkpoint blockade",
+    "PD-1 inhibitor",
+    "PD-L1 inhibitor"
+  ],
+  "CAR-T Cell Therapy": [
+    "chimeric antigen receptor T cell",
+    "CAR T",
+    "adoptive cell therapy"
+  ],
+  "GLP-1 Receptor Agonist": [
+    "GLP-1",
+    "semaglutide",
+    "liraglutide",
+    "tirzepatide"
+  ],
+  "SSRI": [
+    "selective serotonin reuptake inhibitor",
+    "fluoxetine",
+    "sertraline",
+    "escitalopram"
+  ]
+}
