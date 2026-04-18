@@ -28,6 +28,12 @@ export interface IntentObject {
   inheritedFromContext?: boolean;
   conversationHistory?: ConversationHistoryItem[];
   userAge?: number;
+  patientSummary?: string;   // structured clinical description built from the raw input
+  bodyPart?: string;         // primary body part mentioned (e.g. "hand", "knee")
+  triggerEvent?: string;     // precipitating event (e.g. "fall", "injury")
+  activity?: string;         // physical/sports activity context (e.g. "football", "running")
+  onset?: string;            // symptom onset character (e.g. "sudden", "gradual")
+  searchQuery?: string;      // clean rewritten medical query used for retrieval
 }
 
 export interface Publication {
@@ -131,6 +137,7 @@ export interface ResponseMetadata {
   latencyMs: number;
   cacheHit: boolean;
   warnings?: string[];
+  searchQuery?: string;      // clean rewritten medical query used for retrieval
 }
 
 export interface LLMResponse {

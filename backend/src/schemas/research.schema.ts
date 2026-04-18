@@ -78,6 +78,7 @@ export const researchResponseSchema = z.object({
     latencyMs: z.number().int(),
     cacheHit: z.boolean(),
     warnings: z.array(z.string()).optional(),
+    searchQuery: z.string().optional(),
   }),
 });
 

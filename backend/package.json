@@ -10,7 +10,9 @@
     "start": "node dist/index.js",
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc --noEmit",
-    "pipe": "tsx src/scripts/pingPipeline.ts"
+    "pipe": "tsx src/scripts/pingPipeline.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -29,6 +31,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "vitest": "^2.1.9",
     "@types/bcryptjs": "^2.4.6",
     "@types/cookie-parser": "^1.4.8",
     "@types/cors": "^2.8.17",

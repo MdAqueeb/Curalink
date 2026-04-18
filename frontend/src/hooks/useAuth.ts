@@ -1,10 +1,10 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { authApi } from "@/api/auth";
+import { authApi, type AuthUser } from "@/api/auth";
 
 export function useMe() {
   return useQuery({
     queryKey: ["me"],
-    queryFn: () => authApi.getMe().then((r) => r.data.data),
+    queryFn: () => authApi.getMe().then((r: { data: { data: AuthUser } }) => r.data.data),
     retry: false,
     staleTime: 5 * 60 * 1000,
   });

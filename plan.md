@@ -228,7 +228,7 @@ Per Claude Code docs, agent files use frontmatter `name`, `description`, optiona
 - [ ] Swagger UI reachable at `/api-docs` with all 7 endpoints.
 - [ ] `POST /api/v1/research` returns a §9-conforming JSON body for a real query (`"Latest treatments for Parkinson's"`).
 - [ ] Citation validator drops orphan `sourceRefs` and never lets the response shape break.
-- [ ] `Promise.allSettled` proven via integration test (one retriever forced to throw).
+- [x] `Promise.allSettled` proven via integration test (one retriever forced to throw). → `src/__tests__/retrievalResilience.test.ts` (4 cases; run with `npm test`).
 - [ ] `docker compose up` brings up mongo + ollama + backend; healthcheck green; pulled models persist in volume.
 - [ ] `.claude/` folder boots Claude Code with custom agents + skills loaded.
 - [ ] `tsc --noEmit` clean; no `any` in service signatures.

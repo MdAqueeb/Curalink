@@ -195,7 +195,7 @@ export async function rankPublications(
   const candidateIdx = bm25Raw
     .map((v, i) => ({ v, i }))
     .sort((a, b) => b.v - a.v)
-    .slice(0, 60)
+    .slice(0, 20)
     .map((x) => x.i);
 
   const queryVec = await embedText(queryString);

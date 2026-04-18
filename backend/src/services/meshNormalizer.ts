@@ -45,18 +45,21 @@ export function detectDiseaseInText(text: string): string | undefined {
     const re = new RegExp(`\\b${escapeRegex(acronym)}\\b`, "i");
     if (re.test(text)) return expansion;
   }
-  // Then preferred mappings
+  // Then preferred mappings (whole-word match to avoid substring false positives)
   for (const [variant, canonical] of Object.entries(meshIndex.preferred)) {
-    if (lower.includes(variant)) return canonical;
+    const re = new RegExp(`\\b${escapeRegex(variant)}\\b`, "i");
+    if (re.test(lower)) return canonical;
   }
-  // Then canonical names themselves
+  // Then canonical names themselves (whole-word match)
   for (const canonical of Object.keys(meshIndex.entryTerms)) {
-    if (lower.includes(canonical.toLowerCase())) return canonical;
+    const re = new RegExp(`\\b${escapeRegex(canonical.toLowerCase())}\\b`, "i");
+    if (re.test(lower)) return canonical;
   }
-  // Then any synonym in synonyms.json
+  // Then any synonym in synonyms.json (whole-word match — prevents "ad" matching inside "headache")
   for (const [canonical, syns] of Object.entries(synonymTable)) {
     for (const s of syns) {
-      if (lower.includes(s.toLowerCase())) return canonical;
+      const re = new RegExp(`\\b${escapeRegex(s.toLowerCase())}\\b`, "i");
+      if (re.test(lower)) return canonical;
     }
   }
   return undefined;
